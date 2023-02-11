@@ -1,0 +1,17 @@
+
+
+
+#signin_div{
+    width: 20%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#signin_div form{
+    width: 100%;
+}
+#signin_div form input{
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+}
