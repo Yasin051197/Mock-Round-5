@@ -1,0 +1,37 @@
+#blogs{
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 5%;
+}
+#blogs #div{
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#div1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid red;
+}
+#div2{
+    width: 100%;
+    border: 1px solid red;
+}
+#div3{
+    display: flex;
+    width: 100%;
+    
+    border: 1px solid red;
+}
+#div11 img{
+    width: 100%;
+}
+#likediv{
+    width: 50%;
+    border: 1px solid gray;
+    display: flex;
+}
+#likediv p{
+    margin: auto;
+}
