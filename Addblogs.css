@@ -1,0 +1,21 @@
+#Addblogs_div{
+    width: 20%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#Addblogs_div form,#Addblogs_div div{
+    width: 100%;
+}
+#Addblogs_div form input,#Addblogs_div form select{
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+}
+#Addblogs_div form div{
+    margin: 10px;
+    width: 80%;
+    padding: 5%;
+    border: 1px solid gray;
+    background-color: rgb(184, 183, 183);
+}

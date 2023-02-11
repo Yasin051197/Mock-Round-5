@@ -5,12 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Addblogs.css">
 </head>
 <body>
     <div id="Addblogs_div">
         <form id="Addblogs">
-            
+            <div id="username_disbled"></div>
+            <br>
+            <input id="title" type="text" placeholder="Title">
+            <br>
+            <input id="content" type="text" placeholder="Content">
+            <br>
+            <select id="category">
+                <option value="">Category</option>
+                <option value="Business">Business</option>
+                <option value="Tech">Tech</option>
+                <option value="Lifestyle">Lifestyle</option>
+                <option value="Entertainment">Entertainment</option>
+            </select>
+            <br>
+            <input id="date" type="date">
+            <br>
+            <input type="submit" value="Post">
         </form>
     </div>
 </body>
 </html>
+<script src="./Addblogs.js"></script>

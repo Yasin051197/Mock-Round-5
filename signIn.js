@@ -19,8 +19,16 @@ const checklogin=(data,login)=>{
         if(login.email===el.email){
             if(login.password===el.pass){
                 alert("login successful")
-                
+                return fetch("https://mock-round-5.onrender.com/users",{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json",
+                },
+                body:JSON.stringify(login)
+            }).then((res)=>res.json()
+            .then(()=>{
                 window.location.href=`./blogs.html`
+            }))
             }
             else{
                 alert("login failed")
